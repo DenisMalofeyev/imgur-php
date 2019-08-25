@@ -1,0 +1,58 @@
+body {
+color:black;
+
+background: #dedbdb;
+}
+@font-face {
+  font-family: Colus-Regular;
+  src: url(Colus-Regular.otf);
+}
+.wrapper {
+    width: 80%;
+
+    padding-top: 10%;
+    padding-left: 10%;
+    background-color: white;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+h1{
+  text-align:center;
+  font-family:Colus-Regular;
+  color:blue;
+  font-size: medium;
+}
+
+#demo {display:none;
+    width: 90%;
+    text-align: center;
+    font-size: xx-large;
+}
+.share {
+    /*text-align: center;*/
+    display: table;
+       width: 100%;
+       table-layout: fixed; }
+.facebook {
+  display: table-cell;
+  text-align: center;
+
+}
+.vk {
+  display: table-cell;
+    text-align: center;
+
+
+}
+.tg {
+  display: table-cell;
+    text-align: center;
+
+
+}
+.postpic
+
+{width: 90%;
+margin-bottom: 2%;
+height: auto;
+}
